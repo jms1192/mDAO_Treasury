@@ -116,34 +116,4 @@ The two graphs below show the swap volume of DAI, USDC, USDT, FRAX, and UST on C
 #### Weekly Ethereum DEX Swap Volume by Stablecoin
 """
 
-create_premade_layout('2d-layout-1', 'https://node-api.flipsidecrypto.com/api/v2/queries/2ed8a2cc-6bf5-46db-8e8d-d10d234bc5c8/data/latest', 'bar')
 
-"""
-The two graphs below show ETH stablecoin swap volumes broken up by DEX. overall  the DEX with the most consistent stablecoin volume was uniswap v3. Curve occasionally had large bursts of very high stablecoin swap volumes. 
- 
-#### Weekly Ethereum DEX Swap Volume by Stablecoin
-"""
-create_premade_layout('2d-layout-1', 'https://node-api.flipsidecrypto.com/api/v2/queries/1af3facf-735b-4a48-9818-f7cda8e49000/data/latest', 'bar')
-    
-"""
-The graph below shows the breakdown of stablecoins by swap volume on Sushiswap, Uniswap, and Curve. The volume of DAI on SushiSwap is a much larger percent of the swap volume than any other DEX and is the only dex to not have swap volume dominated by USDC and USDT. 
-
-#### Stablecoin Swap Volume by DEX 
-"""    
-
-create_premade_layout('pie-layout-1', 'https://node-api.flipsidecrypto.com/api/v2/queries/ddbccbf5-0560-4f67-943f-246ee7864873/data/latest')
-   
-"""
-# Conclusion 
-
-- USDC and USDT are the two Stablecoins with the most volume on Ethereum DEXs 
-
-- Uniswap-v3 makes up the majority of stablecoin swaps in 2022 
-
-- In early and mid May there was a massive spike in stablecoin volume on Curve 
-
-- Sushiswap is the only major Ethereum DEX to have DIA being in the top 2 of stablecoin volume. 
-
-
-"""   
-  
